@@ -12,6 +12,9 @@ Six files are generated for data filtering:
 4.	Method_4.py: The fourth method is to exclude the samples from correlation calculation in which pairwise missing values are detected and fill the unpaired missing values with 0.01.
 5.	Method_5.py: The fifth method is similar to the fourth method but fills unpaired missing values with 0.
 6.	Method_6.py: The sixth method is to exclude all samples from correlation calculation as long as paired or unpaired missing values are observed. 
+
 Detailed explanations:
+
 Input data: 2D array of counts. Columns are samples, rows are components.
+
 Output data: 2D array of counts. Correlation matrix, columns are components, rows are components.
